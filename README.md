@@ -3,10 +3,12 @@
 <h1>Backtest Usage</h1>
 
 <h2>Command Line</h2>
+
 ```commandline
 python Simulator.py --module=DummyStrategy --class=DummyStrategy
 ```
 <h2>Jupyter Notebook</h2>
+
 ```python
 from Simulator import Simulator
 from OrderManager import OrderManager
@@ -22,6 +24,7 @@ sim = Simulator(s)
 sim.run()
 sim.get_perf()
 ```
+
 <h1>Framework</h1>
 
 ```python
