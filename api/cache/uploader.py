@@ -3,7 +3,7 @@
         and inserts data to DB
 """
 
-from api.handler import Snap
+from api.cache.handler import Snap
 from collections import namedtuple
 from logger.logger import logger
 

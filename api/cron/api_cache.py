@@ -2,8 +2,8 @@
     The cron job here calls the API and caches the data in the database.
 """
 
-from api.uploader import Uploader, UploadItem
-from api.handler import Snap
+from api.cache.uploader import Uploader, UploadItem
+from api.cache.handler import Snap
 from logger.logger import logger
 
 import argparse
